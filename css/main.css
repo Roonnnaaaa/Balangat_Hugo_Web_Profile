@@ -264,10 +264,10 @@ header .header-right .hamburger div{
 }
 .self-info{
     margin: 80px auto;
-    width: 90%;
+    width: 85%;
 }
 .self-info img{
-    max-width: 290px;
+    max-width: 300px;
     float: left;
     border: 3px solid #3b2c2c5b;
     border-radius: 10px;
@@ -275,23 +275,25 @@ header .header-right .hamburger div{
 }
 .intro-title{
     font-size: 2rem;
+    color: #617d8f;
 }
 .intro-subtitle{
     font-size: 1.5rem;
-    line-height: 3rem;
+    line-height: 2rem;
     color: hsl(var(--hue-color), 8%, 45%);
     font-weight: 60;
 }
 .intro-description{
     text-align: justify;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     color: #fff;
 }
 .contactme-btn{
     font-size: 1.3rem;
-    margin-left: 3.5rem;
+    margin-left: 4rem;
     text-decoration: none;
     display: inline-block;
     background-color: hsl(var(--hue-color), 69%, 61%);
