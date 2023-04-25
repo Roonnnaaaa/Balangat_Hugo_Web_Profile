@@ -254,4 +254,58 @@ header .header-right .hamburger div{
     transition: .3s;
 }
 /*HOME DATA*/
-  
+
+/*INDIV INFO*/
+.self-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.self-info{
+    margin: 80px auto;
+    width: 90%;
+}
+.self-info img{
+    max-width: 290px;
+    float: left;
+    border: 3px solid #3b2c2c5b;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.intro-title{
+    font-size: 2rem;
+}
+.intro-subtitle{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: hsl(var(--hue-color), 8%, 45%);
+    font-weight: 60;
+}
+.intro-description{
+    text-align: justify;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.contactme-btn{
+    font-size: 1.3rem;
+    margin-left: 3.5rem;
+    text-decoration: none;
+    display: inline-block;
+    background-color: hsl(var(--hue-color), 69%, 61%);
+    color: white;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    border-color: hsl(var(--hue-color), 69%, 61%);
+    font-weight: 600;
+}
+.contactme-btn:hover{
+    background-color: hsl(var(--hue-color), 57%, 53%);
+}
+.contactme-btn i{
+    margin-left: .7rem;
+    font-size: 1.25rem;
+    transition: .3s;
+}
