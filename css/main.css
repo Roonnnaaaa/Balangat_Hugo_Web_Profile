@@ -460,42 +460,51 @@ nav ul li a:active{
 
 
 /*==================== SKILLS ====================*/
-.Myskills{
-    margin-top: 5.5rem;
+.ourskills-title{
+    text-align: center;
+    color: #c6d3db;
+    padding-top: 5rem;
+}
+.ourskills{
+    display: flex;
+    justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+.Myskills{
+    padding: 0 3rem;
+    margin-top: 3rem;
     min-height: fit-content;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
 }
 .Myskills img{
     height: 220px;
     border-radius: 5%;
-    margin-left: 4rem;
 }
 .title-skills{
     color: #fff;
     margin-top: 2.5rem;
-    font-size: 2rem;
-    margin-left: 4rem;
+    font-size: 1.8rem;
     display: flex;
     position: relative;
 }
 .faq1-content{
     padding: 0;
     width: 100%;
-    max-width: 61%;
     padding: 1.5rem 0;
     text-align: left;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+
 }
 .faq1{
     color: #bcbfcfc4;
     max-width: 900px;
-    padding-left: 4rem;
     margin-top: 1rem;
     padding-bottom: 0.5rem;
     cursor: pointer;
@@ -525,7 +534,7 @@ nav ul li a:active{
     transform: rotate(180deg);
 }
 svg{
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-bottom: 0.2rem;
     transition: transform .5s ease-in;
 }
