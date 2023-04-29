@@ -473,7 +473,7 @@ nav ul li a:active{
     white-space: nowrap;
 }
 .Myskills{
-    padding: 2rem;
+    padding: 1rem;
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
