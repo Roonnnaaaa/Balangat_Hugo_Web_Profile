@@ -468,14 +468,13 @@ nav ul li a:active{
 .ourskills{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 95%;
     flex-wrap: wrap;
     white-space: nowrap;
 }
 .Myskills{
-    padding: 0 3rem;
+    padding: 2rem;
     margin-top: 3rem;
-    min-height: fit-content;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -514,6 +513,11 @@ nav ul li a:active{
 }
 .question h3{
     font-size: 1.5rem;
+}
+@media (max-width: 315px) {
+    .question h3{
+        font-size: 1.2rem;
+    }
 }
 .answer{
     max-height: 0;
