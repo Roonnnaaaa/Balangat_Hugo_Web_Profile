@@ -93,7 +93,7 @@ header .header-right .hamburger div{
         position: absolute;
         top: 0;
         right: 0;
-        left: 70%;
+        left: 100%;
         width: 70%;
         min-height: 95vh;
         display: block;
@@ -104,7 +104,7 @@ header .header-right .hamburger div{
         margin-top: 3.5rem;
     }
     header .navbar nav.active{
-        left: -35%;
+        left: auto;
     }
     header .navbar nav ul{
         display: flex;
