@@ -81,7 +81,8 @@ header .header-right .hamburger div{
     margin: 6px 0;
     background: black;
 }
-@media only screen and (max-width: 1000px){
+
+@media only screen and (max-width: 600px){   /*max-width: 1000px*/
     header{
         padding: 0 20px;
     }
@@ -89,24 +90,27 @@ header .header-right .hamburger div{
         display: block;
     }
     header .navbar nav{
-        background: #617d8f;
-        margin-left: 0;
         position: absolute;
-        top: -100%;
-        left: 0%;
-        width: 100%;
-        height: fit-content;
-        transition: 0.5s;
-        text-align: center;
-        z-index: 10;
+        top: 0;
+        right: 0;
+        left: 70%;
+        width: 70%;
+        min-height: 95vh;
+        display: block;
+        z-index: 98;
+        background-color: #617d8f;
+        padding-top: 120px;
+        transition: 0.10s;
+        margin-top: 3.5rem;
     }
     header .navbar nav.active{
-        top: 60px;
+        left: -35%;
     }
     header .navbar nav ul{
         display: flex;
         flex-direction: column;
     }
+
 }
 
 /*BODY IMG DESIGN*/
