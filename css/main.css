@@ -394,3 +394,67 @@ nav ul li a:active{
     font-size: 1.25rem;
     transition: .3s;
 }
+/*==================== HOME ====================*/
+
+/*==================== ABOUT ====================*/
+.about-container{
+    font-family: var(--body-font);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    white-space: wrap;
+    padding-top: 4rem;
+}
+.about-us{
+    background-color: beige;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.about-img1{
+    background-image: url('../img/Hugo.jpg');
+}
+.about-img2{
+    background-image: url('../img/Balangat.jpg');
+}
+.about-text-box{
+    padding: 10px;
+}
+.name1{
+    display: flex;
+}
+.name{
+    display: flex;
+    white-space: normal;
+}
+.about-text-box h5{
+    font-size: 1rem;
+}
+.about-text-box p{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.about-us a{
+    background-color: rgb(53, 58, 56);
+    color: #fff;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    margin: 50px 30px;
+}
+.about-us:hover{
+    background-color: rgba(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
+  
