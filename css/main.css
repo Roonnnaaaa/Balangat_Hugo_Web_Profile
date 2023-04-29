@@ -457,4 +457,162 @@ nav ul li a:active{
     transform: scale(1.03);
     transition: all is ease;
 }
+
+
+/*==================== SKILLS ====================*/
+.Myskills{
+    margin-top: 5.5rem;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.Myskills img{
+    height: 220px;
+    border-radius: 5%;
+    margin-left: 4rem;
+}
+.title-skills{
+    color: #fff;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+    display: flex;
+    position: relative;
+}
+.faq1-content{
+    padding: 0;
+    width: 100%;
+    max-width: 61%;
+    padding: 1.5rem 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.faq1{
+    color: #bcbfcfc4;
+    max-width: 900px;
+    padding-left: 4rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+.question{
+    display: flex;
+}
+.question h3{
+    font-size: 1.5rem;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+    color: #c6d3db;
+}
+.answer p{
+    padding-top: 0.5rem;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+.faq1.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+.faq1.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    margin-left: 3rem;
+    margin-bottom: 0.2rem;
+    transition: transform .5s ease-in;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+.skills-icon{
+    font-size: 2rem;
+    margin-top: -0.5rem;
+    color: hsl(var(--hue-color), 57%, 53%);
+}
+.skills-icon{
+    margin-right: .75rem;
+}
+.skills-title{
+    font-size: 1.125rem;
+}
+.skills-subtitle{
+    font-size: .813rem;
+    color: hsl(var(--hue-color), 8%, 65%);
+}
+.skills-list{
+    row-gap: 1rem;
+}
+.skills-titles{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.skills-name{
+    font-size: 1rem;
+    font-weight: 500;
+}
+  
+.skills-bar,
+.skills-percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+.skills-bar{
+    background-color: hsl(var(--hue-color), 92%, 85%);
+}
+.skills-percentage{
+    display: block;
+    background-color: hsl(var(--hue-color), 69%, 61%);
+}
+  
+/*Percentages of the Skills*/
+/*FrontEnd*/
+.skills-html{
+    width: 50%;
+}
+.skills-css{
+    width: 80%;
+}
+.skills-js{
+    width: 60%;
+}
+/*Designer*/
+.skills-figma{
+    width: 80%;
+}
+.skills-sketch{
+    width: 20%;
+}
+.skills-photoshop{
+    width: 50%;
+}
+.skills-adobe{
+    width: 25%;
+}
+/*BackEnd*/
+.skills-backJS{
+    width: 30%;
+}
+.skills-nodejs{
+    width: 30%;
+}
+.skills-java{
+    width: 60%;
+  }
+  /*==================== SKILLS ====================*/
   

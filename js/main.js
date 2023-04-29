@@ -16,3 +16,12 @@ window.onload = function () {
 		mobile_menu.classList.toggle('is-active');
 	});
 }
+
+//SKILLS//
+const faqs = document.querySelectorAll(".faq1");
+
+faqs.forEach(faq1 => {
+    faq1.addEventListener("click", () =>{
+        faq1.classList.toggle("active");
+    })
+})
