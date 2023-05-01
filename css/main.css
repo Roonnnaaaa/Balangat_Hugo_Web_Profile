@@ -152,7 +152,8 @@ header .container h2{
     }
 }
 header.is-scrolling{
-    background-color:#8f80a8
+    background-color:#8f80a8;
+    z-index: 2000;
 }
 header.is-scrolling .container{
     padding-top: 20px;
@@ -818,9 +819,6 @@ svg{
   /*PORTFOLIO*/
   
   /*====================CSS FOR VIDEO PLAYER======================*/
-  .small-img .play-btn{
-    width: 35px;
-  }
   .video-player{
     width: 80%;
     position: absolute;
@@ -828,7 +826,7 @@ svg{
     top: 50%;
     transform: translate(-50%, -50%);
     display: none;
-    margin-top: 12.2rem;
+    margin-top: 18.5%;
   }
   .video:focus{
     outline: none;
