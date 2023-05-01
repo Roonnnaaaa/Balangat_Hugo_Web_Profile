@@ -32,9 +32,38 @@ var videoPlayer = document.getElementById("videoPlayer");
 
       function stopVideo(){
           videoPlayer.style.display = "none";
-      }
 
+		  	const video = document.getElementById('myVideo');
+			video.pause();
+			video.currentTime = 0;
+      }
       function playVideo(file){
           myVideo.src = file;
           videoPlayer.style.display = "block";
       }
+
+	const player = document.getElementById('videoPlayer');
+	player.addEventListener('mousedown', dragStart);
+
+	function dragStart(event) {
+		const player = document.getElementById('videoPlayer');
+		player.style.position = 'absolute';
+		player.style.zIndex = 1000;
+		let offsetX = event.clientX - player.offsetLeft;
+		let offsetY = event.clientY - player.offsetTop;
+	  
+		function movePlayer(event) {
+		  player.style.left = (event.clientX - offsetX) + 'px';
+		  player.style.top = (event.clientY - offsetY) + 'px';
+		}
+	  
+		document.addEventListener('mousemove', movePlayer);
+		document.addEventListener('mouseup', stopDragging);
+
+		function stopDragging() {
+			document.removeEventListener('mousemove', movePlayer);
+			document.removeEventListener('mouseup', stopDragging);
+		}
+	  }
+	  
+
