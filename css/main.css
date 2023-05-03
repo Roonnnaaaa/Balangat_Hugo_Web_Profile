@@ -346,7 +346,7 @@ nav ul li a:active{
     align-items: center;
 }
 .self-info{
-    margin: 80px auto;
+    margin: 95px auto;
     width: 85%;
 }
 .self-info img{
@@ -356,6 +356,84 @@ nav ul li a:active{
     border-radius: 10px;
     margin-right: 20px;
 }
+
+.socials{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+.socials .button{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 5px 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-out;
+  }
+  .socials .button:hover{
+    width: 200px;
+  }
+  .socials .button .icon{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .socials .button:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .socials .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+  }
+  .socials .button:nth-child(3):hover .icon{
+    background: #E1306C;
+  }
+  .socials .button:nth-child(4):hover .icon{
+    background: #333;
+  }
+  .socials .button:nth-child(5):hover .icon{
+    background: #ff0000;
+  }
+  .socials .button .icon i{
+    font-size: 25px;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+  }
+  .socials .button:hover .icon i{
+    color: #fff;
+  }
+  .socials .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .socials .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .socials .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .socials .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .socials .button:nth-child(4) span{
+    color: #333;
+  }
+  .socials .button:nth-child(5) span{
+    color: #ff0000;
+  }
+
 .intro-title{
     font-size: 2rem;
     color: #617d8f;
