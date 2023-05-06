@@ -76,42 +76,41 @@
         <div class="con-box">
             <div class="contact_form">
                 <h3>Send a Message</h3>
-                <form>
+                <form action="#">
                     <div class="formBox">
                         <div class="contactInfo">
                             <div class="inputBox">
                                 <span>First Name</span> <br>
-                                <input type="text" placeholder="John">
+                                <input type="text" name="firstname" placeholder="John">
                             </div>
                             <div class="inputBox">
                                 <span>Last Name</span> <br>
-                                <input type="text" placeholder="Doe">
+                                <input type="text" name="lastname" placeholder="Doe">
                             </div>
                         </div>
 
                         <div class="contactInfo">
                             <div class="inputBox">
                                 <span>Email</span> <br>
-                                <input type="text" placeholder="johndoe@email.com">
+                                <input type="text" name="email" placeholder="johndoe@email.com">
                             </div>
                             <div class="inputBox">
                                 <span>Mobile</span> <br>
-                                <input type="text" placeholder="+63 967 546 1202">
+                                <input type="text" name="mobile" placeholder="+63 967 546 1202">
                             </div>
                         </div>
 
                         <div class="write">
                             <div class="inputBox">
                                 <span>Message</span> <br>
-                                <textarea placeholder="Write your message...."></textarea>
+                                <textarea placeholder="Write your message...." name="message"></textarea>
                             </div>
                         </div> 
 
                         <div class="submit">
-                            <div class="inputBox">
-                                <input type="submit" value="Send">
-                            </div>
-                        </div> 
+                            <input type="submit" value="Send">
+                            <span>Sending your message...</span>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -152,4 +151,5 @@
     </div>
 </body>
     <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
 </html>
