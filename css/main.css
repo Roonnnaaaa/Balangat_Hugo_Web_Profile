@@ -490,7 +490,7 @@ nav ul li a:active{
 .about-us{
     background-color: beige;
     width: 300px;
-    height: 500px;
+    height: 540px;
     margin: 20px;
     border-radius: 15px;
 }
@@ -533,7 +533,7 @@ nav ul li a:active{
     padding: 10px 30px;
     display: block;
     text-align: center;
-    margin: 10px 40px;
+    margin: 20px 40px;
 }
 .about-us .a1{
     background-color: rgb(53, 58, 56);
@@ -541,7 +541,7 @@ nav ul li a:active{
     padding: 10px 30px;
     display: block;
     text-align: center;
-    margin: 35px 40px;
+    margin: 45px 40px;
 }
 .about-us:hover{
     background-color: rgba(62, 62, 62);
