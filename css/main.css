@@ -507,14 +507,18 @@ nav ul li a:active{
     background-image: url('../img/Balangat.jpg');
 }
 .about-text-box{
-    padding: 10px;
-}
-.name1{
-    display: flex;
+    padding: 0px 10px;
+
 }
 .name{
+    justify-content: baseline;
     display: flex;
     white-space: normal;
+}
+.name h5 span{
+    font-weight: normal;
+    padding-left: 0.4rem;
+    font-size: 1rem;
 }
 .about-text-box h5{
     font-size: 1rem;
@@ -529,7 +533,15 @@ nav ul li a:active{
     padding: 10px 30px;
     display: block;
     text-align: center;
-    margin: 50px 30px;
+    margin: 10px 40px;
+}
+.about-us .a1{
+    background-color: rgb(53, 58, 56);
+    color: #fff;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    margin: 35px 40px;
 }
 .about-us:hover{
     background-color: rgba(62, 62, 62);
