@@ -331,6 +331,9 @@ nav ul li a:active{
     border-color: hsl(var(--hue-color), 69%, 61%);
     font-weight: 600;
 }
+button a {
+    color: white;
+}
 .contactus-btn:hover{
     background-color: hsl(var(--hue-color), 57%, 53%);
 }
