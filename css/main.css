@@ -490,6 +490,9 @@ button a {
     flex-wrap: wrap;
     white-space: wrap;
     padding-top: 4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .about-us{
     background-color: beige;
@@ -497,12 +500,18 @@ button a {
     height: 540px;
     margin: 20px;
     border-radius: 15px;
+    overflow: hidden;
+    white-space: nowrap; /* Prevents line breaks */
+    text-overflow: ellipsis;
 }
 .card-image{
     height: 250px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
 }
 .about-img1{
     background-image: url('../img/Hugo.jpg');
@@ -512,6 +521,7 @@ button a {
 }
 .about-text-box{
     padding: 0px 10px;
+    
 
 }
 .name{
@@ -523,6 +533,8 @@ button a {
     font-weight: normal;
     padding-left: 0.4rem;
     font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .about-text-box h5{
     font-size: 1rem;
