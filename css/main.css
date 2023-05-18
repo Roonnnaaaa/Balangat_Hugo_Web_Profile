@@ -501,7 +501,6 @@ button a {
     margin: 20px;
     border-radius: 15px;
     overflow: hidden;
-    white-space: nowrap; /* Prevents line breaks */
     text-overflow: ellipsis;
 }
 .card-image{
@@ -509,9 +508,6 @@ button a {
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
-    overflow: hidden;
-    white-space: nowrap; 
-    text-overflow: ellipsis;
 }
 .about-img1{
     background-image: url('../img/Hugo.jpg');
@@ -521,8 +517,6 @@ button a {
 }
 .about-text-box{
     padding: 0px 10px;
-    
-
 }
 .name{
     justify-content: baseline;
@@ -558,6 +552,7 @@ button a {
     display: block;
     text-align: center;
     margin: 45px 40px;
+    
 }
 .about-us:hover{
     background-color: rgba(62, 62, 62);
