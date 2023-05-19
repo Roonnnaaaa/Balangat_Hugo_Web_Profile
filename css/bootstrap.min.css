@@ -32,7 +32,13 @@ body{
     background-color: #fff
 }
 figure{
-    margin: 0 0 1rem
+    margin: 0 0 1rem;
+}
+figure:hover{
+    margin: 0 0 1rem;
+    padding: 2px;
+    box-shadow:  0 14px 28px rgba(209, 129, 230, 0.74), 
+    0 10px 10px rgba(231, 221, 221, 0.856);
 }
 img{
     vertical-align: middle;
@@ -84,6 +90,7 @@ h4{
     padding-right: 15px;
     padding-left: 15px
 }
+
 @media (min-width:768px) {
     .col-md-6 {
         flex: 0 0 50%;
