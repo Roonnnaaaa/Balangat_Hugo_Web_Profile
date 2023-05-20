@@ -26,6 +26,46 @@ faqs.forEach(faq1 => {
     })
 })
 
+//PORTFOLIO//
+	// Get references to the buttons and containers
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const container1 = document.getElementById("web-development");
+	const container2 = document.getElementById("graphic-design");
+	const container3 = document.getElementById("Photography");
+
+	// Function to show a container and hide the others
+	function showContainer(container) {
+	container1.style.display = "none";
+	container2.style.display = "none";
+	container3.style.display = "none";
+	container.style.display = "block";
+	}
+
+	// Add click event listeners to the buttons
+	btn1.addEventListener("click", function() {
+	showContainer(container1);
+	});
+
+	btn2.addEventListener("click", function() {
+	showContainer(container2);
+	});
+
+	btn3.addEventListener("click", function() {
+	showContainer(container3);
+	});
+
+	$(document).ready(function() {
+	// Handle button click event
+	$('.nav-link').click(function() {
+		// Remove active class from all buttons
+		$('.nav-link').removeClass('active');
+		// Add active class to the clicked button
+		$(this).addClass('active');
+	});
+	});
+
 //VIDEO PLAYER//
 var videoPlayer = document.getElementById("videoPlayer");
       var myVideo = document.getElementById("myVideo");
@@ -67,4 +107,5 @@ var videoPlayer = document.getElementById("videoPlayer");
 		}
 	  }
 	*/
+
 
