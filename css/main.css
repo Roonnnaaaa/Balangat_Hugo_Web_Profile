@@ -303,29 +303,67 @@ nav ul li a:active{
     text-align: center;
     padding: 10px;
     color: #e5e7f1;
+    overflow: hidden;
+    
 
 }
-.home_info{
+.home_info {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    padding:  5px 10px;
+    padding: 5px 10px;
     background-color: #8760c556;
-    
-}
-.home_title{
+    border-radius: 10px;
+    width: 650px;
+    height: 180px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .home_info {
+      width: 90%;
+    }
+    .home_.info .home_title h3{
+        font-size: 0.5rem; /* Adjust the font size for mobile devices */
+    }
+  }
+  .home_title {
     font-size: 1.7rem;
     padding-top: 0.5rem;
     text-align: left;
-}
-.home_subtitle{
+  }
+  
+  .home_subtitle {
     font-size: 1.125rem;
     color: hsl(var(--hue-color), 8%, 45%);
     font-weight: 500;
-}
-.home_description{
+  }
+  
+  .home_description {
     margin-bottom: 2rem;
     margin-top: 0.4rem;
-}
+  }
+  
+  @media (max-width: 768px) {
+    .home_title {
+      font-size: 1.5rem; /* Adjust the font size for mobile devices */
+      text-align: center;
+    }
+  
+    .home_subtitle {
+      font-size: 1rem; /* Adjust the font size for mobile devices */
+      text-align: center;
+    }
+  
+    .home_description {
+      margin: 1rem 0; /* Adjust the margins for mobile devices */
+      text-align: center;
+    }
+  }
+
 .contactus-btn{
     font-size: 1.3rem;
     margin-top: -1rem;
@@ -1152,6 +1190,7 @@ footer {
     list-style: none;
     padding: 0;
     display: flex;
+    justify-content: center;
   }
   
   .social-icons li {
