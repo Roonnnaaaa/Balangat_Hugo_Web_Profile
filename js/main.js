@@ -42,6 +42,7 @@ var videoPlayer = document.getElementById("videoPlayer");
           videoPlayer.style.display = "block";
       }
 
+	/*
 	const player = document.getElementById('videoPlayer');
 	player.addEventListener('mousedown', dragStart);
 
@@ -65,5 +66,5 @@ var videoPlayer = document.getElementById("videoPlayer");
 			document.removeEventListener('mouseup', stopDragging);
 		}
 	  }
-	  
+	*/
 

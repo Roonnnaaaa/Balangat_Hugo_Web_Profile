@@ -1198,10 +1198,12 @@ form{
     }
 }
 /*==================== CONTACTUS ====================*/
+
+/*==================== FOOTER ====================*/
 footer {
-    background-color: rgba(74, 36, 99, 0.61);
+    background-color: rgba(47, 22, 63, 0.37);
     color: #ffffff;
-    padding: 5px;
+    padding: 5px 10px;
   }
   
   .footer-container {

@@ -188,15 +188,15 @@
                     <div class="infoBox">
                         <div>
                             <span><i class="fa fa-location-dot"></i></span>
-                            <a href="#">Sto.Domingo, Albay <br>PHILIPPINES </a>
+                            <a href="#">Bicol University,College of Science (Legazpi City , Albay)<br>PHILIPPINES </a>
                         </div>
                         <div>
                             <span><i class="fa-regular fa-envelope"></i></span>
-                            <a href="#">loremipsum@email.com</a>
+                            <a href="#">AR@gmail.com</a>
                         </div>
                         <div>
                             <span><i class="fa fa-phone"></i></span>
-                            <a href="#">+63 967 546 1202</a>
+                            <a href="#">+1 234 567 890</a>
                         </div>
                         <!-- SOCIAL MEDIA LINKS -->
                         <ul class="sci">
