@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------ UNICONS ------------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!------------------ CSS ------------------->
+    <link rel="stylesheet" href="css/style_trial.css">
+    <title>AR/about.page</title>
+</head>
+<body>
+    <!--==================== RESPONSIVE NAVBAR====================-->
+    <header>
+		<div class="container">
+			<h2>LOGO</h2>
+            <div class="navbar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="nav-icon">
+                                <i class="uil uil-estate"></i>
+                                Home
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="about.html" class="nav-icon">
+                                <i class="uil uil-user"></i>
+                                About
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="skills.html" class="nav-icon">
+                                <i class="uil uil-file-alt"></i>
+                                Skills
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="portfolio.html" class="nav-icon">
+                                <i class="uil uil-mountains-sun"></i>
+                                Portfolio
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="contactus.php" class="nav-icon">
+                                <i class="uil uil-message"></i>
+                                ContactUs
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="logout.php" class="logoutBtn">Logout</a>
+                        </li>
+                    </ul>
+                </nav>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+	<nav class="mobile-nav">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="skills.html">Skills</a>
+        <a href="portfolio.html">Portfolio</a>
+		<a href="contactus.php">ContactUs</a>
+        <a href="logout.php">ContactUs</a>
+	</nav>
+
+    <!--==================== FRONT PAGE ====================-->
+    <body>
+        <section class = "container">
+            <div class="wrap">
+            <div class="photo-container">
+                <img src="./img/angela.jpg" alt="Image">
+              </div>
+              <div class="content">
+                <h1>Hi Guys!</h1>
+                <h5 id="typing-text"></h5>
+                <p class="saying">I am a second-year BSIT student at Bicol University, where I embrace the notion that continuous learning paves the way for endless growth!</p>
+               </div>
+                <div class="hover-container">
+                    <h2> INFORMATION ABOUT ME</h2>
+                    <div class="name">
+                        <h5>NAME: <span>Angela Hugo</span></h5>
+                    </div>
+                    <div class="name">
+                        <h5>AGE: <span>20</span></h5>
+                    </div>
+                    <div class="name">
+                        <h5>ADDRESS: <span>Paloyon, Nabua, Camarines Sur</span></h5>
+                    </div>
+                    <div class="name">
+                        <h5>EMAIL: <span>angela.hugo@bicol-u.edu.ph</span></h5>
+                    </div>
+                    <div class="name">
+                        <h5>LANGUAGE: <span>Tagalog, English</span></h5>
+                    </div>
+                    <a href="resume/Hugo _RESUME.pdf" class="a1">READ MORE</a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class = "container">
+            <div class="wrap">
+                <div class="photo-container">
+                    <img src="./img/rona.jpg" alt="Image">
+                  </div>
+                  <div class="content">
+                    <h1>Hi Guys!</h1>
+                    <h5 id="rona_type"></h5>
+                    <p class="saying">Success is not merely a destination; it's an ever-evolving journey fueled by determination, resilience, and the unwavering belief in one's potential.</p>
+                   </div>
+                    <div class="hover-container">
+                        <h2> INFORMATION ABOUT ME</h2>
+                        <div class="name">
+                            <h5>NAME: <span>Rona May Balangat</span></h5>
+                        </div>
+                        <div class="name">
+                            <h5>AGE: <span>20</span></h5>
+                        </div>
+                        <div class="name">
+                            <h5>ADDRESS: <span>Purok 3 Calayucay Sto.Domingo, Albay</span></h5>
+                        </div>
+                        <div class="name">
+                            <h5>EMAIL:<span>rona.balangat@bicol-u.edu.ph</span></h5>
+                        </div>
+                        <div class="name">
+                            <h5>LANGUAGE: <span>Tagalog, English</span></h5>
+                        </div>
+                        <a href="resume/BALANGAT_RESUME.pdf" class="a1">READ MORE</a>
+                    </div>
+                </div>
+                </div>
+        </section>
+       
+    </body>
+    <!--==================== READ MORE ====================-->
+    <script>
+   // First Typing Effect
+    var text1 = "I'm Angela Anne Therese";
+    var index1 = 0;
+    var speed1 = 100; // Adjust typing speed (in milliseconds)
+
+    function typeText1() {
+    var element1 = document.getElementById("typing-text");
+    if (index1 < text1.length) {
+    element1.innerHTML += text1.charAt(index1);
+    index1++;
+    setTimeout(typeText1, speed1);
+  } else {
+    setTimeout(deleteText1, 1000); // Delay before deleting the text
+  }
+}
+
+function deleteText1() {
+  var element1 = document.getElementById("typing-text");
+  if (index1 >= 0) {
+    var tempText = text1.substring(0, index1);
+    element1.innerHTML = tempText;
+    index1--;
+    setTimeout(deleteText1, 50); // Adjust deleting speed (in milliseconds)
+  } else {
+    index1 = 0;
+    setTimeout(typeText1, 1000); // Delay before retyping the text
+  }
+}
+
+// Second Typing Effect
+var text2 = "I'm Rona May ";
+var index2 = 0;
+var speed2 = 50; // Adjust typing speed (in milliseconds)
+
+function typeText2() {
+  var element2 = document.getElementById("rona_type");
+  if (index2 < text2.length) {
+    element2.innerHTML += text2.charAt(index2);
+    index2++;
+    setTimeout(typeText2, speed2);
+  } else {
+    setTimeout(deleteText2, 1000); // Delay before deleting the text
+  }
+}
+
+function deleteText2() {
+  var element2 = document.getElementById("rona_type");
+  if (index2 >= 0) {
+    var tempText = text2.substring(0, index2);
+    element2.innerHTML = tempText;
+    index2--;
+    setTimeout(deleteText2, 50); // Adjust deleting speed (in milliseconds)
+  } else {
+    index2 = 0;
+    setTimeout(typeText2, 1000); // Delay before retyping the text
+  }
+}
+
+// Start the typing effects
+typeText1();
+typeText2();
+        </script>
+</body>
+
+</html>
