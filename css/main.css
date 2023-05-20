@@ -299,6 +299,7 @@ nav ul li a:active{
 /*BODY IMG DESIGN*/
 
 /*HOME DATA*/
+
 .home_data{
     text-align: center;
     padding: 10px;
@@ -332,34 +333,73 @@ nav ul li a:active{
   }
   .home_title {
     font-size: 1.7rem;
-    padding-top: 0.5rem;
-    text-align: left;
+    padding-top: 1rem;
+    text-align: center;
   }
   
   .home_subtitle {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: hsl(var(--hue-color), 8%, 45%);
     font-weight: 500;
   }
   
   .home_description {
     margin-bottom: 2rem;
-    margin-top: 0.4rem;
+    margin-top: 1rem;
+    text-align: center;
   }
-  
   @media (max-width: 768px) {
     .home_title {
-      font-size: 1.5rem; /* Adjust the font size for mobile devices */
+      font-size: 3vw; /* Adjust the font size based on viewport width */
+      padding-top: 2vw; /* Adjust the padding based on viewport width */
       text-align: center;
     }
   
     .home_subtitle {
-      font-size: 1rem; /* Adjust the font size for mobile devices */
+      font-size: 2vw; /* Adjust the font size based on viewport width */
       text-align: center;
     }
   
     .home_description {
-      margin: 1rem 0; /* Adjust the margins for mobile devices */
+      margin-bottom: 1.5rem;
+      margin-top: 1vw; /* Adjust the margin based on viewport width */
+      text-align: center;
+    }
+  }
+  @media (max-width: 769px) {
+    .home_title {
+      font-size: 3vw; /* Adjust the font size based on viewport width */
+      padding-top: 2vw; /* Adjust the padding based on viewport width */
+      text-align: center;
+    }
+  
+    .home_subtitle {
+      font-size: 2vw; /* Adjust the font size based on viewport width */
+      text-align: center;
+    }
+  
+    .home_description {
+      margin-bottom: 1.5rem;
+      margin-top: 1vw; /* Adjust the margin based on viewport width */
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 200px ) {
+    .home_title {
+      font-size: 4vw; /* Adjust the font size based on viewport width */
+      padding-top: 3vw; /* Adjust the padding based on viewport width */
+      text-align: center;
+    }
+  
+    .home_subtitle {
+      font-size: 3vw; /* Adjust the font size based on viewport width */
+      text-align: center;
+    }
+  
+    .home_description { 
+      margin-bottom: 0.5rem;
+      margin-top: 0.8vw; /* Adjust the margin based on viewport width */
       text-align: center;
     }
   }
@@ -1166,24 +1206,27 @@ footer {
   
   .footer-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: auto;
+    width: 100%;
   }
-  .footer-container h3{
+  
+  .footer-container h3 {
     display: flex;
     justify-content: center;
     overflow: hidden;
     white-space: inherit;
   }
-    .footer-container p{
+  
+  .footer-container p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    
   }
   
   .footer-column {
-    width: 33.33%;
+    width: 100%;
+    max-width: 33.33%;
   }
   
   .social-icons {
@@ -1217,3 +1260,29 @@ footer {
   .bottom-bar a {
     color: #ffffff;
   }
+  
+  @media only screen and (max-width: 600px) {
+    .footer-column {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .footer-column {
+      width: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .footer-container {
+      justify-content: space-between;
+    }
+  
+    .footer-column {
+      width: 33.33%;
+      max-width: 33.33%;
+    }
+  }
+  
