@@ -31,9 +31,9 @@ faqs.forEach(faq1 => {
 	const btn1 = document.getElementById("btn1");
 	const btn2 = document.getElementById("btn2");
 	const btn3 = document.getElementById("btn3");
-	const container1 = document.getElementById("web-development");
-	const container2 = document.getElementById("graphic-design");
-	const container3 = document.getElementById("Photography");
+	const container1 = document.getElementById("Portrona");
+	const container2 = document.getElementById("Portboth");
+	const container3 = document.getElementById("Portangela");
 
 	// Function to show a container and hide the others
 	function showContainer(container) {
@@ -82,6 +82,7 @@ var videoPlayer = document.getElementById("videoPlayer");
           videoPlayer.style.display = "block";
       }
 
+	//For Drag Vid//
 	/*
 	const player = document.getElementById('videoPlayer');
 	player.addEventListener('mousedown', dragStart);
