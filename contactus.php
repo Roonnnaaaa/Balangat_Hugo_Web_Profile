@@ -188,7 +188,7 @@
                     <div class="infoBox">
                         <div>
                             <span><i class="fa fa-location-dot"></i></span>
-                            <a href="#">Bicol University,College of Science (Legazpi City , Albay)<br>PHILIPPINES </a>
+                            <a href="#">Bicol University(Legazpi City , Albay)<br>PHILIPPINES </a>
                         </div>
                         <div>
                             <span><i class="fa-regular fa-envelope"></i></span>
