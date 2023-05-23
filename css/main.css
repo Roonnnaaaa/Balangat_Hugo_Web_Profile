@@ -299,14 +299,11 @@ nav ul li a:active{
 /*BODY IMG DESIGN*/
 
 /*HOME DATA*/
-
 .home_data{
     text-align: center;
     padding: 10px;
     color: #e5e7f1;
     overflow: hidden;
-    
-
 }
 .home_info {
     display: flex;
@@ -447,7 +444,6 @@ button a {
     border-radius: 10px;
     margin-right: 20px;
 }
-
 .socials{
     position: absolute;
     margin-top: -30px;
@@ -465,11 +461,11 @@ button a {
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease-out;
-  }
-  .socials .button:hover{
+}
+.socials .button:hover{
     width: 200px;
-  }
-  .socials .button .icon{
+}
+.socials .button .icon{
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -478,53 +474,52 @@ button a {
     box-sizing: border-box;
     line-height: 60px;
     transition: all 0.3s ease-out;
-  }
-  .socials .button:nth-child(1):hover .icon{
+}
+.socials .button:nth-child(1):hover .icon{
     background: #4267B2;
-  }
-  .socials .button:nth-child(2):hover .icon{
+}
+.socials .button:nth-child(2):hover .icon{
     background: #1DA1F2;
-  }
-  .socials .button:nth-child(3):hover .icon{
+}
+.socials .button:nth-child(3):hover .icon{
     background: #E1306C;
-  }
-  .socials .button:nth-child(4):hover .icon{
+}
+.socials .button:nth-child(4):hover .icon{
     background: #333;
-  }
-  .socials .button:nth-child(5):hover .icon{
+}
+.socials .button:nth-child(5):hover .icon{
     background: #ff0000;
-  }
-  .socials .button .icon i{
+}
+.socials .button .icon i{
     font-size: 25px;
     line-height: 50px;
     transition: all 0.3s ease-out;
-  }
-  .socials .button:hover .icon i{
+}
+.socials .button:hover .icon i{
     color: #fff;
-  }
-  .socials .button span{
+}
+.socials .button span{
     font-size: 20px;
     font-weight: 500;
     line-height: 50px;
     margin-left: 10px;
     transition: all 0.3s ease-out;
-  }
-  .socials .button:nth-child(1) span{
+}
+.socials .button:nth-child(1) span{
     color: #4267B2;
-  }
-  .socials .button:nth-child(2) span{
+}
+.socials .button:nth-child(2) span{
     color: #1DA1F2;
-  }
-  .socials .button:nth-child(3) span{
+}
+.socials .button:nth-child(3) span{
     color: #E1306C;
-  }
-  .socials .button:nth-child(4) span{
+}
+.socials .button:nth-child(4) span{
     color: #333;
-  }
-  .socials .button:nth-child(5) span{
+}
+.socials .button:nth-child(5) span{
     color: #ff0000;
-  }
-
+}
 .intro-title{
     font-size: 2rem;
     color: #617d8f;
@@ -567,86 +562,247 @@ button a {
 /*==================== HOME ====================*/
 
 /*==================== ABOUT ====================*/
-.about-container{
-    font-family: var(--body-font);
-    display: flex;
+.aboutwrap {
+    width: 750px;
+    height: 500px;
+    margin: 100px auto; /* Adjust this value as needed */
+    background: linear-gradient(to bottom, #ffffff6c, #ffffff);
+    object-fit:cover;
+    border-radius: 2px;
+}
+.aboutwrap {
+    position: relative;
+    transition: left 10.0s; /* Add transition for smooth animation */
+}
+.aboutwrap:hover {
+    left: -10px; /* Adjust the value to determine the amount of adjustment to the left */
+}
+.aboutwrap:hover .hover-container {
+    display: block;
+}
+.aboutwrap:hover .hover-container {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -200px; /* Adjust the value to position the container on the right side */
+    width: 200px; /* Adjust the width of the container as needed */
+    height: 100%;
+    background-color: #f0f0f093; /* Adjust the background color as needed */
+}
+.hover-container {
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    white-space: inherit;
+    background: linear-gradient(to bottom, #854192e3, #ad51d1b6);  
+}
+.aboutcontent{
+    padding: 10px; 
+}
+#typing-text {
+    border-right: 0.15em solid #ffffff; /* Cursor style */
+    font-family: monospace; /* Font style */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    color: #a312cf;
+    font-size: 1.7rem;
     justify-content: center;
+    margin-left: 30px;
+    padding: auto;
+    font-size: 1.7rem;
+    font-style: monospace;
+    position: relative;
+}
+#rona_type {
+    border-right: 0.15em solid #ffffff; /* Cursor style */
+    font-family: monospace; /* Font style */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    color: #a312cf;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin-left: 30px;
+    padding: auto;
+    font-size: 1.7rem;
+    font-style: monospace;
+    position: relative;
+}
+.aboutcontent h1{
+    color: #ac39cf;
+    justify-content: center;
+    margin-left: 30px;
+    padding: auto;
+    font-size: 1.5rem;
+}
+.aboutcontent .saying{
+    color: #c565e2d2;
+    justify-content: center;
+    margin-left: 30px;
+    padding: auto;
+    font-size: 1.3rem;
+    position: absolute;
+}
+.photo-container {
+    width: 750px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px; /* Adjust this value as needed */
+}
+.photo-container img {
+    display: block;
     width: 100%;
-    flex-wrap: wrap;
-    white-space: wrap;
-    padding-top: 4rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-.about-us{
-    background-color: beige;
-    width: 300px;
-    height: 540px;
-    margin: 20px;
-    border-radius: 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.card-image{
-    height: 250px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-.about-img1{
-    background-image: url('../img/Hugo.jpg');
-}
-.about-img2{
-    background-image: url('../img/Balangat.jpg');
-}
-.about-text-box{
-    padding: 0px 10px;
+    height: 100%;
+    object-fit:cover;
 }
 .name{
     justify-content: baseline;
     display: flex;
     white-space: normal;
+    word-wrap: break-word;
+    white-space: normal;
 }
 .name h5 span{
     font-weight: normal;
-    padding-left: 0.4rem;
+    padding-left: -0.5rem;
+    padding: 1.0rem;
     font-size: 1rem;
     overflow: hidden;
-    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: normal;
 }
-.about-text-box h5{
+.hover-container h5{
     font-size: 1rem;
+    padding: 0.3rem; 
 }
-.about-text-box p{
+.hover-container p{
     font-size: 1rem;
     margin-left: 0.5rem;
 }
-.about-us a{
-    background-color: rgb(53, 58, 56);
+.hover-container h2{
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+    justify-self: center;
+    display: flex;
+}
+.hover-container a{
+    background-color: rgb(157, 110, 168);
     color: #fff;
     padding: 10px 30px;
     display: block;
     text-align: center;
     margin: 20px 40px;
 }
-.about-us .a1{
-    background-color: rgb(53, 58, 56);
-    color: #fff;
+.hover-container.a1{
+    background-color: rgb(151, 90, 207);
+    color: #da44ff7a;
     padding: 10px 30px;
     display: block;
     text-align: center;
     margin: 45px 40px;
-    
 }
-.about-us:hover{
-    background-color: rgba(62, 62, 62);
-    color: white;
+.a1:hover{
     cursor: pointer;
-    transform: scale(1.03);
-    transition: all is ease;
+    background-color: rgba(64, 39, 87, 0.623);
+    color: #da44ffa8;
+}
+@media (max-width: 768px) {
+    .aboutwrap {
+        width: 100%;
+        height: auto;
+        margin: 50px auto; /* Adjust this value as needed */
+        border-radius: 0;
+    }
+    .aboutcontent{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding:100px;
+        margin-left: -100px;
+    }
+    .photo-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px; /* Adjust this value as needed */
+    }
+    .aboutwrap:hover .hover-container {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .hover-container {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+}
+@media (max-width: 300px) {
+    .aboutwrap:hover .hover-container {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-left: -100px;
+    }
+    .aboutcontent{
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        padding:60px
+    }
+    .hover-container {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    .aboutwrap {
+        width: 100%;
+        height: auto;
+        margin: 50px auto; /* Adjust this value as needed */
+        border-radius: 0;
+    }
+    .photo-container {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px; /* Adjust this value as needed */
+    }
 }
 
+@media (max-width: 768px) {
+    .aboutcontent h1 {
+      font-size: 1.5rem;
+    }
+    .aboutcontent h5#typing-text {
+      font-size: 1.2rem;
+    }
+    .aboutcontent p.saying {
+      font-size: 0.8rem;
+    }
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes rona_typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fffafa }
+}
+/*==================== ABOUT ====================*/
 
 /*==================== SKILLS ====================*/
 .ourskills-title{
