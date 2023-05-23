@@ -237,6 +237,7 @@ nav ul li a:active{
 .content{
     padding: 10px; 
 }
+
 #typing-text {
     border-right: 0.15em solid #ffffff; /* Cursor style */
     font-family: monospace; /* Font style */
