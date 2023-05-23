@@ -315,37 +315,35 @@ nav ul li a:active{
     background-color: #8760c556;
     border-radius: 10px;
     width: 650px;
-    height: 180px;
+    height: 200px;
     overflow: hidden;
     margin: 0 auto;
-  }
-  
-  @media (max-width: 768px) {
+} 
+@media (max-width: 768px) {
     .home_info {
       width: 90%;
     }
     .home_.info .home_title h3{
         font-size: 0.5rem; /* Adjust the font size for mobile devices */
     }
-  }
-  .home_title {
+}
+.home_title {
     font-size: 1.7rem;
     padding-top: 1rem;
     text-align: center;
-  }
+}
   
-  .home_subtitle {
+.home_subtitle {
     font-size: 1.5rem;
     color: hsl(var(--hue-color), 8%, 45%);
     font-weight: 500;
-  }
-  
-  .home_description {
+}
+.home_description {
     margin-bottom: 2rem;
     margin-top: 1rem;
     text-align: center;
-  }
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
     .home_title {
       font-size: 3vw; /* Adjust the font size based on viewport width */
       padding-top: 2vw; /* Adjust the padding based on viewport width */
@@ -362,8 +360,8 @@ nav ul li a:active{
       margin-top: 1vw; /* Adjust the margin based on viewport width */
       text-align: center;
     }
-  }
-  @media (max-width: 769px) {
+}
+@media (max-width: 769px) {
     .home_title {
       font-size: 3vw; /* Adjust the font size based on viewport width */
       padding-top: 2vw; /* Adjust the padding based on viewport width */
@@ -380,9 +378,9 @@ nav ul li a:active{
       margin-top: 1vw; /* Adjust the margin based on viewport width */
       text-align: center;
     }
-  }
+}
   
-  @media (max-width: 200px ) {
+@media (max-width: 200px ) {
     .home_title {
       font-size: 4vw; /* Adjust the font size based on viewport width */
       padding-top: 3vw; /* Adjust the padding based on viewport width */
@@ -399,7 +397,7 @@ nav ul li a:active{
       margin-top: 0.8vw; /* Adjust the margin based on viewport width */
       text-align: center;
     }
-  }
+}
 
 .contactus-btn{
     font-size: 1.3rem;
