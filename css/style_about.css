@@ -301,7 +301,7 @@ nav ul li a:active{
 }
 .name h5 span{
     font-weight: normal;
-    padding-left: 0.1rem;
+    padding-left: -0.5rem;
     padding: 1.0rem;
     font-size: 1rem;
     overflow: hidden;
@@ -337,6 +337,11 @@ nav ul li a:active{
     display: block;
     text-align: center;
     margin: 45px 40px;
+}
+.a1:hover{
+    cursor: pointer;
+    background-color: rgba(64, 39, 87, 0.623);
+    color: #da44ffa8;
 }
 @media (max-width: 768px) {
     .aboutwrap {
