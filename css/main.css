@@ -560,13 +560,36 @@ button a {
 /*==================== HOME ====================*/
 
 /*==================== ABOUT ====================*/
+.about_us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0); /* Adjust the alpha value (0.66) to control the transparency */
+    backdrop-filter: blur(100px); /* Adjust the blur value as needed */
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px 5px #061b2e75; /* Adjust the values as needed */
+  }
+  .about_us h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+   
+  }
 .aboutwrap {
     width: 750px;
     height: 500px;
-    margin: 100px auto; /* Adjust this value as needed */
+    margin: 50px auto; /* Adjust this value as needed */
     background: linear-gradient(to bottom, #ffffff6c, #ffffff);
     object-fit:cover;
     border-radius: 2px;
+    margin-top: 4rem;
 }
 .aboutwrap {
     position: relative;
@@ -647,7 +670,7 @@ button a {
     width: 750px;
     height: 300px;
     margin: 0 auto;
-    margin-top: 100px; /* Adjust this value as needed */
+    margin-top: 40px; /* Adjust this value as needed */
 }
 .photo-container img {
     display: block;
@@ -674,6 +697,9 @@ button a {
 .hover-container h5{
     font-size: 1rem;
     padding: 0.3rem; 
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
 }
 .hover-container p{
     font-size: 1rem;
