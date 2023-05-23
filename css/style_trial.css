@@ -197,25 +197,24 @@ nav ul li a:active{
 
 
  /*Body*/ 
- .wrap {
+.wrap {
     width: 750px;
     height: 500px;
     margin: 100px auto; /* Adjust this value as needed */
     background: linear-gradient(to bottom, #ffffff6c, #ffffff);
     object-fit:cover;
     border-radius: 2px;
-  }
-
-  .wrap {
+}
+.wrap {
     position: relative;
     transition: left 10.0s; /* Add transition for smooth animation */
-    }
+}
 .wrap:hover {
     left: -10px; /* Adjust the value to determine the amount of adjustment to the left */
-    }
+}
 .wrap:hover .hover-container {
     display: block;
-    }
+}
 .wrap:hover .hover-container {
     display: block;
     content: "";
@@ -225,7 +224,7 @@ nav ul li a:active{
     width: 200px; /* Adjust the width of the container as needed */
     height: 100%;
     background-color: #f0f0f093; /* Adjust the background color as needed */
-    }
+}
 .hover-container {
     position: absolute;
     display: none;
@@ -233,12 +232,10 @@ nav ul li a:active{
     word-wrap: break-word;
     white-space: normal;
     white-space: inherit;
-    background: linear-gradient(to bottom, #854192e3, #ad51d1b6);
-   
+    background: linear-gradient(to bottom, #854192e3, #ad51d1b6);  
 }
 .content{
-    padding: 10px;
-    
+    padding: 10px; 
 }
 #typing-text {
     border-right: 0.15em solid #ffffff; /* Cursor style */
@@ -275,7 +272,6 @@ nav ul li a:active{
     padding: auto;
     font-size: 1.5rem;
 }
-
 .content .saying{
     color: #c565e2d2;
     justify-content: center;
@@ -284,20 +280,18 @@ nav ul li a:active{
     font-size: 1.4rem;
     position: absolute;
 }
-
- .photo-container {
+.photo-container {
     width: 750px;
     height: 300px;
     margin: 0 auto;
     margin-top: 100px; /* Adjust this value as needed */
-  }
-
-  .photo-container img {
+}
+.photo-container img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit:cover;
-  }
+}
 .name{
     justify-content: baseline;
     display: flex;
@@ -313,12 +307,10 @@ nav ul li a:active{
     overflow: hidden;
     word-wrap: break-word;
     white-space: normal;
- 
 }
 .hover-container h5{
     font-size: 1rem;
-    padding: 0.3rem;
-    
+    padding: 0.3rem; 
 }
 .hover-container p{
     font-size: 1rem;
@@ -345,7 +337,6 @@ nav ul li a:active{
     display: block;
     text-align: center;
     margin: 45px 40px;
-    
 }
 @media (max-width: 768px) {
     .wrap {
@@ -361,7 +352,6 @@ nav ul li a:active{
         padding:100px;
         margin-left: -100px;
     }
-
     .photo-container {
         width: 100%;
         height: auto;
@@ -375,7 +365,6 @@ nav ul li a:active{
         background-color: #f0f0f0;
         padding: 20px;
     }
-
     .hover-container {
         position: static;
         width: 100%;
@@ -399,7 +388,6 @@ nav ul li a:active{
         border-radius: 0;
         padding:60px
     }
-
     .hover-container {
         position: static;
         width: 100%;
@@ -413,7 +401,6 @@ nav ul li a:active{
         margin: 50px auto; /* Adjust this value as needed */
         border-radius: 0;
     }
-
     .photo-container {
         width: 100%;
         height: auto;
@@ -426,26 +413,22 @@ nav ul li a:active{
     .content h1 {
       font-size: 1.5rem;
     }
-  
     .content h5#typing-text {
       font-size: 1.2rem;
     }
-  
     .content p.saying {
       font-size: 0.8rem;
     }
-  }
-  @keyframes typing {
+}
+@keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
-  
-  @keyframes rona_typing {
+}
+@keyframes rona_typing {
     from { width: 0 }
     to { width: 100% }
-  }
-  
-  @keyframes blink-caret {
+}
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: #fffafa }
-  }
+}
