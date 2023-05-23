@@ -1,3 +1,67 @@
+  		// Typing Effect
+		 // First Typing Effect
+		 document.addEventListener("DOMContentLoaded", function() {
+			// Start the typing effects
+			typeText1();
+			typeText2();
+		  });
+		  var text1 = "I'm Angela Anne Therese";
+		  var index1 = 0;
+		  var speed1 = 100; // Adjust typing speed (in milliseconds)
+		  
+		  function typeText1() {
+			var element1 = document.getElementById("typing-text");
+			if (index1 < text1.length) {
+			  element1.innerHTML += text1.charAt(index1);
+			  index1++;
+			  setTimeout(typeText1, speed1);
+			} else {
+			  setTimeout(deleteText1, 1000); // Delay before deleting the text
+			}
+		  }
+		  
+		  function deleteText1() {
+			var element1 = document.getElementById("typing-text");
+			if (index1 >= 0) {
+			  var tempText = text1.substring(0, index1);
+			  element1.innerHTML = tempText;
+			  index1--;
+			  setTimeout(deleteText1, 50); // Adjust deleting speed (in milliseconds)
+			} else {
+			  index1 = 0;
+			  setTimeout(typeText1, 1000); // Delay before retyping the text
+			}
+		  }
+		  
+		  // Second Typing Effect
+		  var text2 = "I'm Rona May ";
+		  var index2 = 0;
+		  var speed2 = 50; // Adjust typing speed (in milliseconds)
+		  
+		  function typeText2() {
+			var element2 = document.getElementById("rona_type");
+			if (index2 < text2.length) {
+			  element2.innerHTML += text2.charAt(index2);
+			  index2++;
+			  setTimeout(typeText2, speed2);
+			} else {
+			  setTimeout(deleteText2, 1000); // Delay before deleting the text
+			}
+		  }
+		  
+		  function deleteText2() {
+			var element2 = document.getElementById("rona_type");
+			if (index2 >= 0) {
+			  var tempText = text2.substring(0, index2);
+			  element2.innerHTML = tempText;
+			  index2--;
+			  setTimeout(deleteText2, 50); // Adjust deleting speed (in milliseconds)
+			} else {
+			  index2 = 0;
+			  setTimeout(typeText2, 1000); // Delay before retyping the text
+			}
+		  }
+		  
 //HEADER RESPONSIVE NAVBAR//
 window.onload = function () {
 	window.addEventListener('scroll', function (e) {
@@ -67,7 +131,7 @@ faqs.forEach(faq1 => {
 	});
 
 //VIDEO PLAYER//
-var videoPlayer = document.getElementById("videoPlayer");
+	  var videoPlayer = document.getElementById("videoPlayer");
       var myVideo = document.getElementById("myVideo");
 
       function stopVideo(){
@@ -81,7 +145,7 @@ var videoPlayer = document.getElementById("videoPlayer");
           myVideo.src = file;
           videoPlayer.style.display = "block";
       }
-
+	  
 	//For Drag Vid//
 	/*
 	const player = document.getElementById('videoPlayer');
