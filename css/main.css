@@ -1209,92 +1209,80 @@ form{
 /*==================== CONTACTUS ====================*/
 
 /*==================== FOOTER ====================*/
-footer {
+footer{
     background-color: rgba(47, 22, 63, 0.37);
     color: #ffffff;
     padding: 5px 10px;
     margin-top: 1rem;
-  }
-  
-  .footer-container {
+}
+.footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-  }
-  
-  .footer-container h3 {
+} 
+.footer-container h3 {
     display: flex;
     justify-content: center;
     overflow: hidden;
     white-space: inherit;
-  }
-  
-  .footer-container p {
+}
+.footer-container p {
     display: flex;
     justify-content: center;
     overflow: hidden;
-  }
-  
-  .footer-column {
+}
+.footer-column {
     width: 100%;
     max-width: 33.33%;
-  }
-  
-  .social-icons {
+} 
+.social-icons {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-  }
-  
-  .social-icons li {
+}
+.social-icons li {
     margin-right: 10px;
-  }
-  
-  .social-icons li a {
+} 
+.social-icons li a {
     color: #ffffff;
-  }
-  
-  .bottom-bar {
+} 
+.bottom-bar {
     background-color: #5f5078;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
     width: auto;
-  }
-  
-  .bottom-bar p {
+} 
+.bottom-bar p {
     margin: 0;
     font-size: 14px;
-  }
-  
-  .bottom-bar a {
+} 
+.bottom-bar a {
     color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .footer-column {
+    width: 100%;
+    max-width: 100%;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .footer-column {
-      width: 100%;
-      max-width: 100%;
-    }
+} 
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .footer-column {
+    width: 50%;
+    max-width: 50%;
   }
-  
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    .footer-column {
-      width: 50%;
-      max-width: 50%;
-    }
+}
+@media only screen and (min-width: 1025px) {
+  .footer-container {
+    justify-content: space-between;
   }
-  
-  @media only screen and (min-width: 1025px) {
-    .footer-container {
-      justify-content: space-between;
-    }
-  
-    .footer-column {
-      width: 33.33%;
-      max-width: 33.33%;
-    }
+  .footer-column {
+    width: 33.33%;
+    max-width: 33.33%;
   }
+}
+
+
   

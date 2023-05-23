@@ -108,5 +108,3 @@ var videoPlayer = document.getElementById("videoPlayer");
 		}
 	  }
 	*/
-
-

@@ -92,7 +92,7 @@ body{
     min-height:100vh;
     display: block;
     z-index: 98;
-    background-color:#500383;
+    background-color:#12002F;
     padding-top: 120px;
     -webkit-transition:0.4s;
     transition:0.4s;
@@ -197,7 +197,7 @@ nav ul li a:active{
 
 
 /*Body*/ 
-.wrap {
+.aboutwrap {
     width: 750px;
     height: 500px;
     margin: 100px auto; /* Adjust this value as needed */
@@ -205,17 +205,17 @@ nav ul li a:active{
     object-fit:cover;
     border-radius: 2px;
 }
-.wrap {
+.aboutwrap {
     position: relative;
     transition: left 10.0s; /* Add transition for smooth animation */
 }
-.wrap:hover {
+.aboutwrap:hover {
     left: -10px; /* Adjust the value to determine the amount of adjustment to the left */
 }
-.wrap:hover .hover-container {
+.aboutwrap:hover .hover-container {
     display: block;
 }
-.wrap:hover .hover-container {
+.aboutwrap:hover .hover-container {
     display: block;
     content: "";
     position: absolute;
@@ -237,7 +237,6 @@ nav ul li a:active{
 .content{
     padding: 10px; 
 }
-
 #typing-text {
     border-right: 0.15em solid #ffffff; /* Cursor style */
     font-family: monospace; /* Font style */
@@ -278,7 +277,7 @@ nav ul li a:active{
     justify-content: center;
     margin-left: 30px;
     padding: auto;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     position: absolute;
 }
 .photo-container {
@@ -340,7 +339,7 @@ nav ul li a:active{
     margin: 45px 40px;
 }
 @media (max-width: 768px) {
-    .wrap {
+    .aboutwrap {
         width: 100%;
         height: auto;
         margin: 50px auto; /* Adjust this value as needed */
@@ -359,7 +358,7 @@ nav ul li a:active{
         margin: 0 auto;
         margin-top: 50px; /* Adjust this value as needed */
     }
-    .wrap:hover .hover-container {
+    .aboutwrap:hover .hover-container {
         position: static;
         width: 100%;
         height: auto;
@@ -375,7 +374,7 @@ nav ul li a:active{
     }
 }
 @media (max-width: 300px) {
-    .wrap:hover .hover-container {
+    .aboutwrap:hover .hover-container {
         position: static;
         width: 100%;
         height: auto;
@@ -396,7 +395,7 @@ nav ul li a:active{
         background-color: #f0f0f0;
         padding: 20px;
     }
-    .wrap {
+    .aboutwrap {
         width: 100%;
         height: auto;
         margin: 50px auto; /* Adjust this value as needed */
@@ -433,3 +432,80 @@ nav ul li a:active{
     from, to { border-color: transparent }
     50% { border-color: #fffafa }
 }
+
+/*==================== FOOTER ====================*/
+footer{
+    background-color: rgba(47, 22, 63, 0.37);
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-top: 1rem;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+} 
+.footer-container h3 {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    white-space: inherit;
+}
+.footer-container p {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.footer-column {
+    width: 100%;
+    max-width: 33.33%;
+} 
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-icons li {
+    margin-right: 10px;
+} 
+.social-icons li a {
+    color: #ffffff;
+} 
+.bottom-bar {
+    background-color: #5f5078;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: auto;
+} 
+.bottom-bar p {
+    margin: 0;
+    font-size: 14px;
+} 
+.bottom-bar a {
+    color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .footer-column {
+    width: 100%;
+    max-width: 100%;
+  }
+} 
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .footer-column {
+    width: 50%;
+    max-width: 50%;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .footer-container {
+    justify-content: space-between;
+  }
+  .footer-column {
+    width: 33.33%;
+    max-width: 33.33%;
+  }
+}
+
