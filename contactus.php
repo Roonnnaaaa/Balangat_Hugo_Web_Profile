@@ -244,5 +244,4 @@
     </footer>
 </body>
     <script src="js/main.js"></script>
-    <script src="js/contact.js"></script>
 </html>
