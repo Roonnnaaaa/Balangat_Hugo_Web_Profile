@@ -137,7 +137,7 @@
 	</nav>
 
     <div class="con-title">
-        <h2>Get in Touch</h2>
+        <h1>Get in Touch</h1>
     </div>
     <div class="contactUs">
         <div class="con-box">

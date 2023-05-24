@@ -1039,9 +1039,9 @@ svg{
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-  }
+}
   /* Animations */
-  .nav-pills .nav-item .nav-link {
+.nav-pills .nav-item .nav-link {
     text-decoration: none;
     padding: 0 15.5px;
     text-align: center;
@@ -1053,7 +1053,7 @@ svg{
     background-color: rgba(222, 222, 222, 0.3);
     border-radius: 30px;
     cursor: pointer;
-  }
+}
   /*
   .nav-pills .nav-item .nav-link.active, 
   .nav-pills .nav-item .nav-link.active:focus, 
@@ -1063,163 +1063,165 @@ svg{
     box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3); 
   }
   */
-  .nav-pills .nav-item i{
+.nav-pills .nav-item i{
     display: block;
     font-size: 20px;
     line-height: 60px; 
-  }
+}
 
-  .nav-pills-primary .nav-item > .nav-link.active {
+.nav-pills-primary .nav-item > .nav-link.active {
     background-color: #378C3F; 
     color: white;
-  }
-  .nav-pills .nav-item .nav-link:hover {
+}
+.nav-pills .nav-item .nav-link:hover {
     background-color: #9A9A9A;
     color: #FFFFFF;
     box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3); 
-  }
-  /*<!-----Upper Icons/Above of Portfolio Title------->*/
-  .nav-align-center{
+}
+
+/*<!-----Upper Icons/Above of Portfolio Title------->*/
+.nav-align-center{
     text-align: center; 
-  }
-  .nav-align-center .nav-pills{
+}
+.nav-align-center .nav-pills{
     display: inline-flex;
-  }
-  /*PORTFOLIO*/
-  .profile-page .nav-align-center {
+}
+  
+/*PORTFOLIO*/
+.profile-page .nav-align-center {
     margin-top: 30px; 
-  }
-  .profile-page .gallery {
+}
+.profile-page .gallery {
     margin-top: 45px;
     padding-bottom: 50px; 
-  }
-  .section{
+}
+.section{
     padding: 70px 0;
     position: relative;
     background: #040924;
-  }
-  .section .row + .category{
+}
+.section .row + .category{
     margin-top: 15px; 
-  }
-  /*PORTFOLIO*/
+}
+/*PORTFOLIO*/
   
-  /*Images Gallery Style*/
-  .gallery .cc-porfolio-image figure {
+/*Images Gallery Style*/
+.gallery .cc-porfolio-image figure {
     position: relative;
     overflow: hidden;
     text-align: center; 
-  }
-  .gallery .cc-porfolio-image figure img {
+}
+.gallery .cc-porfolio-image figure img {
     position: relative;
     display: block;
     max-width: 100%;
     opacity: 1; 
-  }
-  .gallery .cc-porfolio-image figure figcaption {
+}
+.gallery .cc-porfolio-image figure figcaption {
     position: absolute;
     color: #fff;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; 
-  }
-  .gallery .cc-porfolio-image figure figcaption,
-  .gallery .cc-porfolio-image figure figcaption > a {
+}
+.gallery .cc-porfolio-image figure figcaption,
+.gallery .cc-porfolio-image figure figcaption > a {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; 
-  }
-  .gallery .cc-porfolio-image figure figcaption > a {
+}
+.gallery .cc-porfolio-image figure figcaption > a {
     z-index: 1000;
     text-indent: 200%;
     white-space: nowrap;
     font-size: 0;
     opacity: 0; 
-  }
-  .gallery .cc-porfolio-image figure .h4,
-  .gallery .cc-porfolio-image figure p {
+}
+.gallery .cc-porfolio-image figure .h4,
+.gallery .cc-porfolio-image figure p {
     margin: 0; 
-  }
-  .gallery figure.cc-effect figcaption::before,
-  .gallery figure.cc-effect figcaption::after {
+}
+.gallery figure.cc-effect figcaption::before,
+.gallery figure.cc-effect figcaption::after {
     position: absolute;
     content: '';
     opacity: 0; 
-  }
-  .gallery figure.cc-effect figcaption::before {
+}
+.gallery figure.cc-effect figcaption::before {
     top: 10px;
     right: 10px;
     bottom: 10px;
     left: 10px;
     transform: scale(0, 0);
     transform-origin: 0 0; 
-  }
-  .gallery figure.cc-effect figcaption::after{
+}
+.gallery figure.cc-effect figcaption::after{
     top: 10px;
     right: 10px;
     bottom: 10px;
     left: 10px;
     transform: scale(0, 0);
     transform-origin: 100% 0; 
-  }
-  .gallery figure.cc-effect .h4{
+}
+.gallery figure.cc-effect .h4{
     margin-top: 25%;
     transition: transform 0.35s;
     opacity: 0; 
-  }
-  @media (max-width: 480px) {
+}
+@media (max-width: 480px) {
     .gallery figure.cc-effect .h4 {
       font-size: 14px;
     } 
-  }
-  .gallery figcaption .container {
+}
+.gallery figcaption .container {
     position: absolute;
     width: 100%;
     bottom: 20px; 
-  }
-  .gallery figure.cc-effect p,
-  .gallery figure.cc-effect button {
+}
+.gallery figure.cc-effect p,
+.gallery figure.cc-effect button {
     padding: 0.5em 2em;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: transform 0.35s;
     opacity: 0; 
-  }
-  .gallery figure.cc-effect img,
-  .gallery figure.cc-effect .h4 {
+}
+.gallery figure.cc-effect img,
+.gallery figure.cc-effect .h4 {
     transform: scale(1.06, 1.06); 
-  }
-  .gallery figure.cc-effect img,
-  .gallery figure.cc-effect figcaption::before,
-  .gallery figure.cc-effect figcaption::after,
-  .gallery figure.cc-effect p {
+}
+.gallery figure.cc-effect img,
+.gallery figure.cc-effect figcaption::before,
+.gallery figure.cc-effect figcaption::after,
+.gallery figure.cc-effect p {
     transition: opacity 0.35s, transform 0.35s; 
-  }
-  .gallery figure.cc-effect:hover img {
+}
+.gallery figure.cc-effect:hover img {
     opacity: 1;
     transform: translate3d(0, 0, 0); 
-  }
-  .gallery figure.cc-effect:hover figcaption::before,
-  .gallery figure.cc-effect:hover figcaption::after {
+}
+.gallery figure.cc-effect:hover figcaption::before,
+.gallery figure.cc-effect:hover figcaption::after {
     opacity: 1;
     transform: scale(1); 
-  }
-  .gallery figure.cc-effect:hover figcaption:before {
+}
+.gallery figure.cc-effect:hover figcaption:before {
     background: rgba(27, 23, 23, 0.5); 
-  }
-  .gallery figure.cc-effect:hover .h4,
-  .gallery figure.cc-effect:hover p,
-  .gallery figure.cc-effect:hover button {
+}
+.gallery figure.cc-effect:hover .h4,
+.gallery figure.cc-effect:hover p,
+.gallery figure.cc-effect:hover button {
     opacity: 1;
     transform: translate3d(0, 0, 0);
     color: #fff; 
-  }
-  .gallery figure.cc-effect:hover figcaption::after,
-  .gallery figure.cc-effect:hover .h4,
-  .gallery figure.cc-effect:hover p,
-  .gallery figure.cc-effect:hover img {
+}
+.gallery figure.cc-effect:hover figcaption::after,
+.gallery figure.cc-effect:hover .h4,
+.gallery figure.cc-effect:hover p,
+.gallery figure.cc-effect:hover img {
     transition-delay: 0.15s; 
-  }
+}
   /*PORTFOLIO*/
   
   /*====================CSS FOR VIDEO PLAYER======================*/
@@ -1250,10 +1252,20 @@ svg{
     padding-top: 1.5rem;
 }
 .con-title{
-    text-align: center;
-    padding-top: 5rem;
-    font-size: 1.5rem;
-    color: #d6b2e9c7;
+    padding: 0 5.5rem;
+}
+.con-title h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0); 
+    backdrop-filter: blur(100px); /* Adjust the blur value as needed */
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px 5px #061b2e75; /* Adjust the values*/
 }
 .con-box{
     padding: 10px;
